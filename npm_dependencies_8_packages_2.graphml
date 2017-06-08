@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="type" attr.type="string" for="edge" id="d1" />
+  <key attr.name="type" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="core-util-is">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="co">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="har-schema">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="hoek">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="getpass">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json-schema">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsbn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tweetnacl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="performance-now">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mime-types">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="stringstream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="punycode">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="verror">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="aws4">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="asynckit">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="uuid">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="http-signature">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ajv">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="asn1">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tough-cookie">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="boom">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="bcrypt-pbkdf">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sshpk">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-typedarray">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mime-db">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json-stringify-safe">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="safe-buffer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="extend">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sntp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsprim">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="assert-plus">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="har-validator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cryptiles">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tunnel-agent">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="aws-sign2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="hawk">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="delayed-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="qs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ecc-jsbn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsonify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="request">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="caseless">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="isstream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="form-data">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="oauth-sign">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="combined-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="dashdash">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="extsprintf">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="forever-agent">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json-stable-stringify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <edge source="getpass" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mime-types" target="mime-db">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="verror" target="core-util-is">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="verror" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="verror" target="extsprintf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-signature" target="sshpk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-signature" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-signature" target="jsprim">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ajv" target="co">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ajv" target="json-stable-stringify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tough-cookie" target="punycode">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="boom" target="hoek">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="bcrypt-pbkdf" target="tweetnacl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="jsbn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="asn1">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="getpass">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="ecc-jsbn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="tweetnacl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="bcrypt-pbkdf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="dashdash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sntp" target="hoek">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="json-schema">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="verror">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="extsprintf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="har-validator" target="har-schema">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="har-validator" target="ajv">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cryptiles" target="boom">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tunnel-agent" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="sntp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="boom">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="cryptiles">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="hoek">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ecc-jsbn" target="jsbn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="performance-now">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="mime-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="stringstream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="aws4">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="uuid">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="tunnel-agent">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="tough-cookie">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="is-typedarray">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="extend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="http-signature">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="har-validator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="aws-sign2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="hawk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="qs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="json-stringify-safe">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="caseless">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="isstream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="form-data">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="oauth-sign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="combined-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="forever-agent">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="form-data" target="asynckit">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="form-data" target="combined-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="form-data" target="mime-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="combined-stream" target="delayed-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="dashdash" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="json-stable-stringify" target="jsonify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,5443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="type" attr.type="string" for="edge" id="d1" />
+  <key attr.name="type" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="browserslist">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="strip-bom">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="shebang-regex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="p-finally">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cli-table">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jschardet">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="v8flags">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="yeoman-environment">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="send">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="elliptic">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ripemd160">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sequencify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="utils-merge">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-parse">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cipher-base">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="slash">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="http-signature">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="uws">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tildify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="process-nextick-args">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="randombytes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="util">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="underscore">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ember-cli-babel">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="proxy-addr">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="public-encrypt">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parse-filepath">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="username-sync">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-destructuring">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="socket.io-adapter">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="heimdalljs-logger">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.pick">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.isempty">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="browserify-sign">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="anymatch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="has-flag">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="wrap-ansi">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="set-blocking">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="invert-kv">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json-schema">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="negotiator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="invariant">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mktemp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="find-up">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="dom-serializer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cloneable-readable">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="vinyl-fs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="gh-got">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="to-array">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="loose-envify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-function-name">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="through2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="async-each">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="browserify-rsa">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="remove-trailing-separator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helpers">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mem">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-polyfill">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.isstring">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="isexe">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="http-errors">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="double-ended-queue">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="normalize-path">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cryptiles">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="loader-runner">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="extglob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="grouped-queue">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="interpret">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cookie-signature">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="base64id">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-template-literals">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sprintf-js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pumpify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="detect-newline">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="object.pick">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mime">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json-stable-stringify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-register">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="array-uniq">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="domutils">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-modules-commonjs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="private">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-arrow-functions">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json5">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="get-stdin">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-retry-allowed">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="array-union">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cli-cursor">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="nth-check">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="boolbase">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash._reevaluate">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parse-asn1">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="gulp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cookiejar">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-funnel">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-shorthand-properties">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="liftoff">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="process">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="webpack">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mem-fs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ipaddr.js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="set-immediate-shim">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="gulp-util">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="har-validator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-key">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="stream-http">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="browserify-des">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="merge-trees">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="micromatch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="p-locate">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-posix">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ms">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="github-username">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="dargs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lru-cache">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-plain-obj">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="multimatch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="winston">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="chokidar">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="crypto-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tweetnacl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="p-timeout">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="dateformat">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="snapdragon">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pretty-bytes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="user-home">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="detect-indent">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="clone-buffer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="orchestrator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="homedir-polyfill">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="esutils">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="external-editor">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="after">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-explode-assignable-expression">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="dashdash">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regjsparser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sparkles">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="decamelize">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pinkie-promise">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="domain-browser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="yargs-parser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="merge-descriptors">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="argparse">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="stream-consume">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cli-width">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="delayed-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="globby">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="get-caller-file">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="glob-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="q">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="classnames">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="wordwrap">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regenerator-runtime">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pretty-hrtime">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="@types/node">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="media-typer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="object-component">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-template">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="exists-sync">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="handlebars">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="detect-conflict">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="vary">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mem-fs-editor">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="through">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="@gulp-sourcemaps/map-sources">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="rechoir">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mimic-fn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="flagged-respawn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="stack-trace">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="asynckit">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="uuid">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fs-tree-diff">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fined">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="memory-fs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="unpipe">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tough-cookie">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-modules-systemjs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cliui">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="rsvp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-parameters">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fs-exists-sync">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-get-function-arity">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-merge-trees">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-utf8">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="querystring-es3">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-block-scoping">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="execa">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="read-pkg-up">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="caseless">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="oauth-sign">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lcid">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="css">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="debug">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="loader-utils">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="isomorphic-fetch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tree-sync">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-runtime">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="core-util-is">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="har-schema">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="querystring">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="formidable">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="resolve-dir">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-function-name">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="serve-static">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="gulplog">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="minimatch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="electron-to-chromium">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="os-locale">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="vinyl-file">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="browserify-cipher">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ajv">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="heimdalljs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="etag">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="inquirer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-preset-es2015">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="got">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="has-gulplog">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="date-now">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="clone">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ejs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ordered-read-streams">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-modules-umd">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="gulp-sourcemaps">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="decompress-response">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ansi-styles">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cookie">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="vinyl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="acorn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="istextorbinary">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="engine.io-client">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsonfile">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ansi-escapes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="universalify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="deprecated">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="multipipe">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regjsgen">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ajv-keywords">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="body-parser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="isstream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="prop-types">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="isurl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="errno">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="strip-ansi">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="first-chunk-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lowercase-keys">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="encoding">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="unicode-match-property-value-ecmascript">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-define-map">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="superagent">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="string-width">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="home-or-tmp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="miller-rabin">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="unique-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="array-flatten">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="through2-filter">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="braces">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parseurl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="hawk">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="underscore.string">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parseuri">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="camelcase">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-regenerator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ieee754">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="inflight">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="to-arraybuffer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="rx-lite-aggregates">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="binary-extensions">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-promise">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="source-map">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="p-limit">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="eyes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="setprototypeof">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="urix">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="setimmediate">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-glob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="concat-map">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="unicode-match-property-ecmascript">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-exists">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="big.js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jquery">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="has-cors">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="raw-body">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="supports-color">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="has-binary2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-source">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sha.js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-modules-amd">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="optimist">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="url-parse-lax">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="yallist">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.templatesettings">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="p-cancelable">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-remap-async-to-generator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="promise-map-series">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash._reescape">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="getpass">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="signal-exit">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="htmlparser2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="to-fast-properties">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="prr">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="findup-sync">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-type">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="array-unique">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="time-stamp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="stream-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-root">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="base64-js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pinkie">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="extend-shallow">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="which">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="hosted-git-info">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="destroy">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="log-symbols">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-optimise-call-expression">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fancy-log">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="css-what">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sntp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="buffer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="glob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.isequal">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.create">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="create-ecdh">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-syntax-trailing-function-commas">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="react">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="node-pre-gyp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="binaryextensions">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="text-table">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="bluebird">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="source-map-support">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="url">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="redis-parser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="request">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.mapvalues">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="react-dom">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regenerator-transform">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="read-chunk">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="archy">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="console-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="encodeurl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="socket.io-parser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="npm-run-path">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="type-is">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="can-symlink">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="y18n">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cheerio">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-traverse">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="locate-path">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="colors">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="css-select">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="punycode">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="vm-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="backo2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="https-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="asn1">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="util-deprecate">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="entities">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="bcrypt-pbkdf">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fs.realpath">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ultron">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-extglob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="end-of-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="glogg">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parsejson">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="express">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="core-js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ua-parser-js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tty-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-babel-transpiler">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="validate-npm-package-license">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="domhandler">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="isarray">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="commondir">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="qs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="resolve">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="hash-for-dep">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="bytes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="run-async">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="combined-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-object-super">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-valid-glob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-hoist-variables">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="browser-stdout">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="hoek">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="merge-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ecc-jsbn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="socket.io">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="stream-shift">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="color-name">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="timers-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="browserify-aes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-debug">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tapable">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="browserify-zlib">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="walk-sync">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="yosay">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="amd-name-resolver">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pump">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="array-equal">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="convert-source-map">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="range-parser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="constants-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="require-main-filename">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="async-disk-cache">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-computed-properties">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-call-delegate">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-block-scoped-functions">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="extend">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-async-to-generator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ws">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="node-fetch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="aws-sign2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="scoped-regex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ansi-regex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="evp_bytestokey">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-syntax-async-functions">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="indexof">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="figures">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json-loader">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="symlink-or-copy">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ee-first">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="arr-diff">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="co">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="to-absolute-glob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="better-assert">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="strip-bom-buf">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="wrappy">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="xtend">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="diff">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="verror">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="aws4">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-strict-mode">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="minimist">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-check-es2015-constants">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regenerate">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="clone-stats">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fragment-cache">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="base64-arraybuffer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="arrify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="sshpk">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mime-db">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="source-map-resolve">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="which-module">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="content-disposition">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="assert">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-unicode-regex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="balanced-match">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="depd">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-persistent-filter">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parse-json">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json-stringify-safe">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-sticky-regex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-messages">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="chalk">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="shebang-command">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.template">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="error">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="array-differ">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="forever-agent">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="inherits">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lazystream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-classes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="blank-object">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="commander">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ensure-posix-path">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="growl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="nanomatch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tunnel-agent">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="readable-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regex-not">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fbjs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="events">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="component-inherit">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-literals">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-for-of">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="class-extend">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="redis-errors">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mkdirp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="strip-bom-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="moment">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="js-yaml">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="uglify-js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="strip-bom-string">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cycle">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="map-cache">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-spread">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="create-hmac">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="coffee-script">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="glob-parent">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="duplexer2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="duplexer3">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="graceful-fs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-dirname">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="normalize-package-data">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regenerate-unicode-properties">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="on-finished">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-replace-supers">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="duplexify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cross-spawn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="to-regex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="color-convert">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="load-json-file">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="component-bind">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="ember-cli-version-checker">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="define-property">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="blob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsesc">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="has-ansi">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="graceful-readlink">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="node-uuid">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-syntax-exponentiation-operator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsprim">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.isplainobject">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="get-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="assert-plus">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-regex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-code-frame">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parseqs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="emojis-list">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-kitchen-sink-helpers">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsonify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-preset-env">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fs-extra">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="globals">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="caniuse-lite">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="require-directory">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mute-stream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="async">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-fullwidth-code-point">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="extsprintf">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="replace-ext">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="enhanced-resolve">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="semver">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="methods">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="escape-html">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="cli-boxes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="redis-commands">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="os-browserify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="yeast">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-generator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="tmp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="matcher-collection">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="redis">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="string-template">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="iconv-lite">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="strip-eof">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-typeof-symbol">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-typedarray">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pad-component">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="asap">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="global-modules">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-exponentiation-operator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="create-hash">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="rx-lite">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="engine.io-parser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="debug-fabulous">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-binary-path">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="jsbn">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="json3">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="accepts">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="os-homedir">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="engine.io">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="content-type">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-transform-es2015-duplicate-keys">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="timed-out">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="js-tokens">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="acorn-dynamic-import">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="trim-right">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="string_decoder">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="domelementtype">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mocha">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="promise">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="stringstream">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="component-emitter">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="yargs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="md5-hex">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="forwarded">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="webpack-sources">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="shelljs">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-builtin-module">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="source-list-map">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="performance-now">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-scoped">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="untildify">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="kind-of">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="editions">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="textextensions">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fast-ordered-set">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pako">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="safe-buffer">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="read-pkg">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="yeoman-generator">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-to-regexp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="deep-extend">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash.assignwith">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="beeper">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="object-assign">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="path-is-absolute">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="whatwg-fetch">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="form-data">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="brace-expansion">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="lodash._reinterpolate">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="broccoli-plugin">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="arraybuffer.slice">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="expand-tilde">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="regexpu-core">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="mime-types">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-plugin-debug-macros">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="statuses">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="readdirp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="escape-string-regexp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="md5-o-matic">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="nan">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-helper-builder-binary-assignment-operator-visitor">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="boom">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="xmlhttprequest-ssl">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-core">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babylon">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="detect-file">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="parse5">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-negated-glob">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="quick-temp">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="taketalk">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="rimraf">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="builtin-status-codes">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fsevents">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="diffie-hellman">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="finalhandler">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="socket.io-client">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="node-libs-browser">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pbkdf2">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="watchpack">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="bn.js">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="pseudomap">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="vali-date">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="restore-cursor">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="@gulp-sourcemaps/identity-map">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="fresh">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="esprima">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="babel-types">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="is-absolute">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <node id="once">
+      <data key="d0">PACKAGE</data>
+    </node>
+    <edge source="browserslist" target="electron-to-chromium">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserslist" target="caniuse-lite">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cli-table" target="colors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="v8flags" target="user-home">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="is-scoped">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="log-symbols">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="globby">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="untildify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="escape-string-regexp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="mem-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="inquirer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="text-table">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-environment" target="grouped-queue">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="depd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="escape-html">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="range-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="http-errors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="encodeurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="etag">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="mime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="on-finished">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="ms">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="fresh">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="destroy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="send" target="statuses">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-signature" target="sshpk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-signature" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-signature" target="jsprim">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tildify" target="os-homedir">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="randombytes" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="util" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="clone">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="broccoli-debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="broccoli-source">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="babel-polyfill">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="amd-name-resolver">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="babel-preset-env">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="babel-plugin-transform-es2015-modules-amd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="broccoli-babel-transpiler">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="ember-cli-version-checker">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="babel-plugin-debug-macros">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-babel" target="broccoli-funnel">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="proxy-addr" target="ipaddr.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="proxy-addr" target="forwarded">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="public-encrypt" target="create-hash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="public-encrypt" target="randombytes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="public-encrypt" target="browserify-rsa">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="public-encrypt" target="bn.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="public-encrypt" target="parse-asn1">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="parse-filepath" target="map-cache">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="parse-filepath" target="is-absolute">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="parse-filepath" target="path-root">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-destructuring" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-adapter" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="heimdalljs-logger" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="heimdalljs-logger" target="heimdalljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-sign" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-sign" target="browserify-rsa">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-sign" target="bn.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-sign" target="create-hash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-sign" target="elliptic">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-sign" target="parse-asn1">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-sign" target="create-hmac">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="anymatch" target="micromatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="anymatch" target="arrify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="wrap-ansi" target="strip-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="wrap-ansi" target="string-width">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="invariant" target="loose-envify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="find-up" target="locate-path">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="dom-serializer" target="entities">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="dom-serializer" target="domelementtype">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cloneable-readable" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cloneable-readable" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cloneable-readable" target="process-nextick-args">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="lazystream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="merge-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="strip-bom">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="lodash.isequal">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="gulp-sourcemaps">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="duplexify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="strip-bom-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="vali-date">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="through2-filter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="vinyl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="is-valid-glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-fs" target="glob-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gh-got" target="got">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gh-got" target="is-plain-obj">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="loose-envify" target="js-tokens">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-function-name" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-function-name" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-function-name" target="babel-helper-get-function-arity">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-function-name" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-function-name" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="through2" target="xtend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="through2" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helpers" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helpers" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem" target="mimic-fn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-polyfill" target="core-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-polyfill" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-polyfill" target="regenerator-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-errors" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-errors" target="depd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-errors" target="setprototypeof">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="http-errors" target="statuses">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cryptiles" target="boom">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="grouped-queue" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-template-literals" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pumpify" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pumpify" target="pump">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pumpify" target="duplexify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="json-stable-stringify" target="jsonify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-register" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-register" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-register" target="source-map-support">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-register" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-register" target="home-or-tmp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-register" target="core-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-register" target="babel-core">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="domutils" target="domelementtype">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="domutils" target="dom-serializer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-commonjs" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-commonjs" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-commonjs" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-commonjs" target="babel-plugin-transform-strict-mode">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-arrow-functions" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="array-union" target="array-uniq">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cli-cursor" target="restore-cursor">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="nth-check" target="boolbase">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="pretty-hrtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="semver">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="orchestrator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="minimist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="vinyl-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="deprecated">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="tildify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="archy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="liftoff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="gulp-util">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="interpret">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp" target="v8flags">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="fast-ordered-set">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="broccoli-plugin">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="fs-tree-diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="blank-object">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="minimatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="exists-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="heimdalljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="array-equal">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="path-posix">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="symlink-or-copy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="walk-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-funnel" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-shorthand-properties" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-shorthand-properties" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="resolve">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="extend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="fined">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="lodash.mapvalues">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="rechoir">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="lodash.isstring">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="lodash.isplainobject">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="findup-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="liftoff" target="flagged-respawn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="enhanced-resolve">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="node-libs-browser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="loader-utils">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="supports-color">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="tapable">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="acorn-dynamic-import">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="json5">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="ajv">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="webpack-sources">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="ajv-keywords">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="watchpack">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="uglify-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="json-loader">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="acorn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="loader-runner">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="async">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="memory-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="interpret">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack" target="yargs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs" target="vinyl-file">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs" target="vinyl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="array-uniq">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="minimist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="dateformat">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="multipipe">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="fancy-log">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="lodash._reescape">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="replace-ext">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="vinyl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="lodash.template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="lodash._reinterpolate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="array-differ">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="has-gulplog">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="gulplog">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="lodash._reevaluate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-util" target="beeper">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="har-validator" target="har-schema">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="har-validator" target="ajv">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="stream-http" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="stream-http" target="builtin-status-codes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="stream-http" target="to-arraybuffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="stream-http" target="xtend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="stream-http" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="merge-trees" target="heimdalljs-logger">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="merge-trees" target="fs-tree-diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="merge-trees" target="heimdalljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="merge-trees" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="merge-trees" target="symlink-or-copy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="merge-trees" target="can-symlink">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="array-unique">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="arr-diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="fragment-cache">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="object.pick">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="snapdragon">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="extend-shallow">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="define-property">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="regex-not">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="kind-of">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="extglob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="nanomatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="braces">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="micromatch" target="to-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="p-locate" target="p-limit">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="github-username" target="gh-got">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="lru-cache" target="pseudomap">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="lru-cache" target="yallist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="multimatch" target="array-differ">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="multimatch" target="minimatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="multimatch" target="array-union">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="multimatch" target="arrify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="winston" target="eyes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="winston" target="isstream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="winston" target="colors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="winston" target="async">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="winston" target="cycle">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="winston" target="stack-trace">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="anymatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="readdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="async-each">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="is-glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="glob-parent">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="is-binary-path">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="fsevents">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chokidar" target="path-is-absolute">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="public-encrypt">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="browserify-cipher">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="pbkdf2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="randombytes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="create-ecdh">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="create-hash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="browserify-sign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="diffie-hellman">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="crypto-browserify" target="create-hmac">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="user-home" target="os-homedir">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="orchestrator" target="end-of-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="orchestrator" target="stream-consume">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="orchestrator" target="sequencify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="external-editor" target="tmp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="external-editor" target="jschardet">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="external-editor" target="iconv-lite">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="dashdash" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pinkie-promise" target="pinkie">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs-parser" target="camelcase">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="argparse" target="sprintf-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="globby" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="globby" target="glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="globby" target="pinkie-promise">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="globby" target="pify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="globby" target="array-union">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="ordered-read-streams">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="glob-parent">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="remove-trailing-separator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="extend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="pumpify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="is-negated-glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="unique-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-stream" target="to-absolute-glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-template" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-template" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-template" target="babylon">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-template" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-template" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="handlebars" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="handlebars" target="async">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="handlebars" target="uglify-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="handlebars" target="optimist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="commondir">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="globby">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="multimatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="vinyl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="deep-extend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mem-fs-editor" target="ejs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="@gulp-sourcemaps/map-sources" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="@gulp-sourcemaps/map-sources" target="normalize-path">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="rechoir" target="resolve">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fs-tree-diff" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fs-tree-diff" target="heimdalljs-logger">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fs-tree-diff" target="symlink-or-copy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fs-tree-diff" target="path-posix">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fined" target="parse-filepath">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fined" target="expand-tilde">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fined" target="lodash.pick">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fined" target="lodash.isempty">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fined" target="lodash.isstring">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fined" target="lodash.isplainobject">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fined" target="lodash.assignwith">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="memory-fs" target="errno">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="memory-fs" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tough-cookie" target="punycode">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-systemjs" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-systemjs" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-systemjs" target="babel-helper-hoist-variables">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cliui" target="strip-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cliui" target="wrap-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cliui" target="string-width">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-parameters" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-parameters" target="babel-helper-call-delegate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-parameters" target="babel-helper-get-function-arity">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-parameters" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-parameters" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-parameters" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-get-function-arity" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-get-function-arity" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-merge-trees" target="broccoli-plugin">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-merge-trees" target="merge-trees">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-block-scoping" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-block-scoping" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-block-scoping" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-block-scoping" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-block-scoping" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="execa" target="cross-spawn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="execa" target="signal-exit">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="execa" target="p-finally">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="execa" target="strip-eof">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="execa" target="is-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="execa" target="get-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="execa" target="npm-run-path">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="read-pkg-up" target="read-pkg">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="read-pkg-up" target="find-up">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="lcid" target="invert-kv">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css" target="urix">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css" target="source-map-resolve">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="debug" target="ms">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="loader-utils" target="json5">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="loader-utils" target="big.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="loader-utils" target="emojis-list">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="isomorphic-fetch" target="node-fetch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="isomorphic-fetch" target="whatwg-fetch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tree-sync" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tree-sync" target="quick-temp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tree-sync" target="walk-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tree-sync" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tree-sync" target="fs-tree-diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-runtime" target="core-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-runtime" target="regenerator-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="resolve-dir" target="expand-tilde">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="resolve-dir" target="global-modules">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-function-name" target="babel-helper-function-name">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-function-name" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-function-name" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="serve-static" target="encodeurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="serve-static" target="parseurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="serve-static" target="send">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="serve-static" target="escape-html">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulplog" target="glogg">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="minimatch" target="brace-expansion">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="os-locale" target="mem">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="os-locale" target="lcid">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="os-locale" target="execa">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-file" target="strip-bom-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-file" target="pify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-file" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-file" target="strip-bom-buf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl-file" target="vinyl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-cipher" target="evp_bytestokey">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-cipher" target="browserify-aes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-cipher" target="browserify-des">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ajv" target="co">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ajv" target="json-stable-stringify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="heimdalljs" target="rsvp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="string-width">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="cli-width">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="ansi-escapes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="external-editor">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="mute-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="run-async">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="through">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="figures">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="rx-lite-aggregates">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="cli-cursor">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="strip-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inquirer" target="rx-lite">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-modules-commonjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-function-name">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-destructuring">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-classes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-shorthand-properties">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-check-es2015-constants">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-modules-umd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-modules-systemjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-typeof-symbol">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-computed-properties">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-block-scoped-functions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-literals">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-for-of">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-arrow-functions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-unicode-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-regenerator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-parameters">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-block-scoping">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-template-literals">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-sticky-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-modules-amd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-spread">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-object-super">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-es2015" target="babel-plugin-transform-es2015-duplicate-keys">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="is-plain-obj">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="url-parse-lax">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="duplexer3">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="is-retry-allowed">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="decompress-response">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="get-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="p-cancelable">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="isurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="p-timeout">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="is-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="lowercase-keys">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="got" target="timed-out">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="has-gulplog" target="sparkles">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ordered-read-streams" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-umd" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-umd" target="babel-plugin-transform-es2015-modules-amd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-umd" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="acorn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="detect-newline">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="strip-bom-string">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="vinyl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="convert-source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="@gulp-sourcemaps/identity-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="@gulp-sourcemaps/map-sources">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="debug-fabulous">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="gulp-sourcemaps" target="css">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ansi-styles" target="color-convert">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl" target="clone-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl" target="cloneable-readable">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl" target="remove-trailing-separator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl" target="clone">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl" target="replace-ext">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl" target="is-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vinyl" target="clone-stats">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="istextorbinary" target="binaryextensions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="istextorbinary" target="textextensions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="istextorbinary" target="editions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="has-cors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="parseuri">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="parsejson">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="yeast">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="indexof">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="engine.io-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="ws">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="parseqs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="xmlhttprequest-ssl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="component-emitter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-client" target="component-inherit">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsonfile" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="multipipe" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="multipipe" target="duplexer2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="depd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="qs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="raw-body">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="type-is">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="bytes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="http-errors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="on-finished">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="content-type">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="body-parser" target="iconv-lite">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="prop-types" target="fbjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="prop-types" target="loose-envify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="errno" target="prr">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="strip-ansi" target="ansi-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="first-chunk-stream" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-define-map" target="babel-helper-function-name">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-define-map" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-define-map" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-define-map" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="qs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="cookiejar">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="methods">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="extend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="form-data">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="mime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="formidable">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="superagent" target="component-emitter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="string-width" target="strip-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="string-width" target="is-fullwidth-code-point">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="unique-stream" target="through2-filter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="unique-stream" target="json-stable-stringify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="through2-filter" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="through2-filter" target="xtend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="sntp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="boom">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="cryptiles">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hawk" target="hoek">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="parseuri" target="better-assert">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-regenerator" target="regenerator-transform">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inflight" target="wrappy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="inflight" target="once">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="rx-lite-aggregates" target="rx-lite">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="is-glob" target="is-extglob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="raw-body" target="unpipe">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="raw-body" target="bytes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="raw-body" target="iconv-lite">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="supports-color" target="has-flag">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="has-binary2" target="isarray">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-amd" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-amd" target="babel-plugin-transform-es2015-modules-commonjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-modules-amd" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="optimist" target="wordwrap">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="optimist" target="minimist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="lodash.templatesettings" target="lodash._reinterpolate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-remap-async-to-generator" target="babel-helper-function-name">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-remap-async-to-generator" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-remap-async-to-generator" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-remap-async-to-generator" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-remap-async-to-generator" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="promise-map-series" target="rsvp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="getpass" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="htmlparser2" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="htmlparser2" target="domelementtype">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="htmlparser2" target="domutils">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="htmlparser2" target="entities">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="htmlparser2" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="htmlparser2" target="domhandler">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="findup-sync" target="detect-file">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="findup-sync" target="is-glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="findup-sync" target="micromatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="findup-sync" target="resolve-dir">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="path-type" target="pify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="stream-browserify" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="stream-browserify" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="which" target="isexe">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="log-symbols" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-optimise-call-expression" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-optimise-call-expression" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fancy-log" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fancy-log" target="time-stamp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sntp" target="hoek">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="buffer" target="ieee754">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="buffer" target="base64-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob" target="minimatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob" target="inflight">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob" target="fs.realpath">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob" target="path-is-absolute">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob" target="once">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-ecdh" target="elliptic">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-ecdh" target="bn.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react" target="fbjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react" target="prop-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react" target="loose-envify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="source-map-support" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="url" target="punycode">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="url" target="querystring">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="redis-parser" target="redis-errors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="performance-now">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="mime-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="stringstream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="aws4">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="uuid">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="tunnel-agent">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="tough-cookie">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="is-typedarray">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="extend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="http-signature">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="har-validator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="aws-sign2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="hawk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="qs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="json-stringify-safe">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="caseless">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="isstream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="form-data">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="oauth-sign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="combined-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="request" target="forever-agent">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react-dom" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react-dom" target="fbjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react-dom" target="prop-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="react-dom" target="loose-envify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regenerator-transform" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regenerator-transform" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regenerator-transform" target="private">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="read-chunk" target="pify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="console-browserify" target="date-now">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-parser" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-parser" target="isarray">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-parser" target="has-binary2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-parser" target="component-emitter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="npm-run-path" target="path-key">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="type-is" target="media-typer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="type-is" target="mime-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cheerio" target="htmlparser2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cheerio" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cheerio" target="parse5">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cheerio" target="entities">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cheerio" target="dom-serializer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cheerio" target="css-select">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="babel-messages">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="globals">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="invariant">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="babel-code-frame">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-traverse" target="babylon">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="locate-path" target="path-exists">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="locate-path" target="p-locate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css-select" target="nth-check">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css-select" target="domutils">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css-select" target="css-what">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="css-select" target="boolbase">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="vm-browserify" target="indexof">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="bcrypt-pbkdf" target="tweetnacl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="end-of-stream" target="once">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glogg" target="sparkles">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="parsejson" target="better-assert">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="methods">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="escape-html">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="vary">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="on-finished">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="serve-static">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="statuses">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="parseurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="type-is">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="send">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="array-flatten">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="etag">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="encodeurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="range-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="utils-merge">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="merge-descriptors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="setprototypeof">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="content-disposition">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="cookie">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="proxy-addr">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="path-to-regexp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="finalhandler">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="depd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="qs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="cookie-signature">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="accepts">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="fresh">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="express" target="content-type">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-babel-transpiler" target="broccoli-persistent-filter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-babel-transpiler" target="hash-for-dep">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-babel-transpiler" target="clone">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-babel-transpiler" target="broccoli-merge-trees">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-babel-transpiler" target="babel-core">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-babel-transpiler" target="json-stable-stringify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-babel-transpiler" target="broccoli-funnel">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="domhandler" target="domelementtype">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="resolve" target="path-parse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hash-for-dep" target="heimdalljs-logger">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hash-for-dep" target="resolve">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hash-for-dep" target="heimdalljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="hash-for-dep" target="broccoli-kitchen-sink-helpers">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="run-async" target="is-promise">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="combined-stream" target="delayed-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-object-super" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-object-super" target="babel-helper-replace-supers">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-hoist-variables" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-hoist-variables" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="merge-stream" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ecc-jsbn" target="jsbn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io" target="socket.io-client">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io" target="socket.io-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io" target="socket.io-adapter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io" target="engine.io">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="timers-browserify" target="setimmediate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-debug" target="minimatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-debug" target="broccoli-plugin">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-debug" target="heimdalljs-logger">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-debug" target="fs-tree-diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-debug" target="tree-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-debug" target="heimdalljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-debug" target="symlink-or-copy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="browserify-zlib" target="pako">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="walk-sync" target="matcher-collection">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="walk-sync" target="ensure-posix-path">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="pad-component">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="ansi-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="wrap-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="ansi-styles">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="string-width">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="cli-boxes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="strip-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yosay" target="taketalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="amd-name-resolver" target="ensure-posix-path">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async-disk-cache" target="username-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async-disk-cache" target="heimdalljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async-disk-cache" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async-disk-cache" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async-disk-cache" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async-disk-cache" target="istextorbinary">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async-disk-cache" target="rsvp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-computed-properties" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-computed-properties" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-call-delegate" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-call-delegate" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-call-delegate" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-call-delegate" target="babel-helper-hoist-variables">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-block-scoped-functions" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-async-to-generator" target="babel-plugin-syntax-async-functions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-async-to-generator" target="babel-helper-remap-async-to-generator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-async-to-generator" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ws" target="ultron">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ws" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-fetch" target="is-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-fetch" target="encoding">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="figures" target="escape-string-regexp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="to-absolute-glob" target="extend-shallow">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="to-absolute-glob" target="is-absolute">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="to-absolute-glob" target="is-negated-glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="strip-bom-buf" target="is-utf8">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="verror" target="core-util-is">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="verror" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="verror" target="extsprintf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-strict-mode" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-strict-mode" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-check-es2015-constants" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="jsbn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="asn1">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="getpass">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="ecc-jsbn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="tweetnacl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="bcrypt-pbkdf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="dashdash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="sshpk" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="assert" target="util">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-unicode-regex" target="regexpu-core">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-unicode-regex" target="babel-helper-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-unicode-regex" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="walk-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="broccoli-plugin">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="heimdalljs-logger">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="hash-for-dep">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="promise-map-series">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="fs-tree-diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="heimdalljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="symlink-or-copy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="rsvp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="md5-hex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-persistent-filter" target="async-disk-cache">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-sticky-regex" target="babel-helper-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-sticky-regex" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-sticky-regex" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-messages" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chalk" target="strip-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chalk" target="escape-string-regexp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chalk" target="supports-color">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chalk" target="ansi-styles">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="chalk" target="has-ansi">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="shebang-command" target="shebang-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="lodash.template" target="lodash.templatesettings">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="lodash.template" target="lodash._reinterpolate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="error" target="string-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="error" target="xtend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="lazystream" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-helper-replace-supers">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-messages">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-helper-define-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-helper-function-name">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-helper-optimise-call-expression">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-classes" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="commander" target="graceful-readlink">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="tunnel-agent" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readable-stream" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readable-stream" target="isarray">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readable-stream" target="core-util-is">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readable-stream" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readable-stream" target="string_decoder">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readable-stream" target="process-nextick-args">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readable-stream" target="util-deprecate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fbjs" target="isomorphic-fetch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fbjs" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fbjs" target="setimmediate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fbjs" target="core-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fbjs" target="ua-parser-js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fbjs" target="promise">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fbjs" target="loose-envify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-literals" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-for-of" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="class-extend" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mkdirp" target="minimist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="strip-bom-stream" target="first-chunk-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="strip-bom-stream" target="strip-bom-buf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="js-yaml" target="argparse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="js-yaml" target="esprima">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="uglify-js" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="uglify-js" target="commander">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-spread" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hmac" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hmac" target="cipher-base">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hmac" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hmac" target="create-hash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hmac" target="sha.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hmac" target="ripemd160">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-parent" target="is-glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="glob-parent" target="path-dirname">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="duplexer2" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="normalize-package-data" target="hosted-git-info">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="normalize-package-data" target="is-builtin-module">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="normalize-package-data" target="semver">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="normalize-package-data" target="validate-npm-package-license">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="on-finished" target="ee-first">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-replace-supers" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-replace-supers" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-replace-supers" target="babel-messages">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-replace-supers" target="babel-helper-optimise-call-expression">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-replace-supers" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-replace-supers" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="duplexify" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="duplexify" target="end-of-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="duplexify" target="stream-shift">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="duplexify" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cross-spawn" target="shebang-command">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cross-spawn" target="which">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="cross-spawn" target="lru-cache">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="color-convert" target="color-name">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="load-json-file" target="parse-json">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="load-json-file" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="load-json-file" target="pify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="load-json-file" target="strip-bom">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-version-checker" target="semver">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="ember-cli-version-checker" target="resolve">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="has-ansi" target="ansi-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="json-schema">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="verror">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="extsprintf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="jsprim" target="assert-plus">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-regex" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-regex" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-regex" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-code-frame" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-code-frame" target="js-tokens">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-code-frame" target="esutils">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="parseqs" target="better-assert">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="semver">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="browserslist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-modules-commonjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-function-name">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-destructuring">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-classes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="invariant">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-shorthand-properties">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-check-es2015-constants">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-async-to-generator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-modules-umd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-modules-systemjs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-typeof-symbol">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-computed-properties">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-block-scoped-functions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-literals">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-for-of">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-exponentiation-operator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-syntax-trailing-function-commas">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-unicode-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-regenerator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-parameters">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-block-scoping">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-arrow-functions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-template-literals">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-sticky-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-modules-amd">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-spread">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-object-super">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-preset-env" target="babel-plugin-transform-es2015-duplicate-keys">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fs-extra" target="jsonfile">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fs-extra" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fs-extra" target="universalify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="async" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="enhanced-resolve" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="enhanced-resolve" target="tapable">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="enhanced-resolve" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="enhanced-resolve" target="memory-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="detect-indent">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="trim-right">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="babel-messages">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="jsesc">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-generator" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="redis" target="redis-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="redis" target="double-ended-queue">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="redis" target="redis-commands">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-typeof-symbol" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-exponentiation-operator" target="babel-helper-builder-binary-assignment-operator-visitor">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-exponentiation-operator" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-exponentiation-operator" target="babel-plugin-syntax-exponentiation-operator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hash" target="inherits">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hash" target="cipher-base">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hash" target="sha.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="create-hash" target="ripemd160">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-parser" target="after">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-parser" target="arraybuffer.slice">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-parser" target="base64-arraybuffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-parser" target="has-binary2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io-parser" target="blob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="debug-fabulous" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="debug-fabulous" target="object-assign">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="is-binary-path" target="binary-extensions">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="accepts" target="negotiator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="accepts" target="mime-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io" target="base64id">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io" target="uws">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io" target="accepts">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io" target="engine.io-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io" target="cookie">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="engine.io" target="ws">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-duplicate-keys" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-transform-es2015-duplicate-keys" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="acorn-dynamic-import" target="acorn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="string_decoder" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="growl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="supports-color">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="lodash.create">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="browser-stdout">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="commander">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="escape-string-regexp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="json3">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="diff">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mocha" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="promise" target="asap">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="which-module">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="os-locale">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="camelcase">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="y18n">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="require-main-filename">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="set-blocking">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="read-pkg-up">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="string-width">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="require-directory">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="cliui">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="decamelize">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="get-caller-file">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yargs" target="yargs-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="md5-hex" target="md5-o-matic">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack-sources" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="webpack-sources" target="source-list-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="shelljs" target="glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="shelljs" target="interpret">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="shelljs" target="rechoir">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="is-scoped" target="scoped-regex">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fast-ordered-set" target="blank-object">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="read-pkg" target="load-json-file">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="read-pkg" target="normalize-package-data">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="read-pkg" target="path-type">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="cross-spawn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="detect-conflict">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="mem-fs-editor">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="cli-table">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="find-up">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="yeoman-environment">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="minimist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="text-table">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="pretty-bytes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="path-is-absolute">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="user-home">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="dateformat">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="class-extend">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="mkdirp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="github-username">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="path-exists">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="istextorbinary">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="shelljs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="run-async">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="read-pkg-up">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="chalk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="read-chunk">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="error">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="async">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="yeoman-generator" target="dargs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="path-to-regexp" target="isarray">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="form-data" target="asynckit">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="form-data" target="combined-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="form-data" target="mime-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="brace-expansion" target="balanced-match">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="brace-expansion" target="concat-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-plugin" target="symlink-or-copy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-plugin" target="promise-map-series">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-plugin" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="broccoli-plugin" target="quick-temp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="expand-tilde" target="homedir-polyfill">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regexpu-core" target="regenerate">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regexpu-core" target="regjsgen">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regexpu-core" target="unicode-match-property-value-ecmascript">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regexpu-core" target="unicode-match-property-ecmascript">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regexpu-core" target="regenerate-unicode-properties">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="regexpu-core" target="regjsparser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="mime-types" target="mime-db">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-plugin-debug-macros" target="semver">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readdirp" target="set-immediate-shim">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readdirp" target="minimatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readdirp" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="readdirp" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-builder-binary-assignment-operator-visitor" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-builder-binary-assignment-operator-visitor" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-helper-builder-binary-assignment-operator-visitor" target="babel-helper-explode-assignable-expression">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="boom" target="hoek">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-helpers">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-register">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="minimatch">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="path-is-absolute">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-traverse">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="private">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-messages">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="json5">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="convert-source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="slash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-code-frame">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-types">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babylon">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-template">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-core" target="babel-generator">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="detect-file" target="fs-exists-sync">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="parse5" target="@types/node">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="quick-temp" target="mktemp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="quick-temp" target="underscore.string">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="quick-temp" target="rimraf">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="taketalk" target="get-stdin">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="taketalk" target="minimist">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="rimraf" target="glob">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fsevents" target="node-pre-gyp">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="fsevents" target="nan">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="diffie-hellman" target="miller-rabin">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="diffie-hellman" target="bn.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="diffie-hellman" target="randombytes">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="finalhandler" target="parseurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="finalhandler" target="escape-html">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="finalhandler" target="encodeurl">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="finalhandler" target="unpipe">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="finalhandler" target="on-finished">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="finalhandler" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="finalhandler" target="statuses">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="engine.io-client">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="socket.io-parser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="has-cors">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="parseuri">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="backo2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="component-bind">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="component-emitter">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="indexof">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="to-array">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="debug">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="base64-arraybuffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="parseqs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="socket.io-client" target="object-component">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="process">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="tty-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="os-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="crypto-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="timers-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="punycode">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="vm-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="stream-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="https-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="string_decoder">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="readable-stream">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="constants-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="events">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="path-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="util">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="domain-browser">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="querystring-es3">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="assert">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="stream-http">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="url">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="console-browserify">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="node-libs-browser" target="browserify-zlib">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pbkdf2" target="create-hash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pbkdf2" target="sha.js">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pbkdf2" target="ripemd160">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pbkdf2" target="safe-buffer">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="pbkdf2" target="create-hmac">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="watchpack" target="async">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="watchpack" target="graceful-fs">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="watchpack" target="chokidar">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="@gulp-sourcemaps/identity-map" target="source-map">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="@gulp-sourcemaps/identity-map" target="through2">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="@gulp-sourcemaps/identity-map" target="css">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="@gulp-sourcemaps/identity-map" target="acorn">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="@gulp-sourcemaps/identity-map" target="normalize-path">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-types" target="babel-runtime">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-types" target="esutils">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-types" target="lodash">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="babel-types" target="to-fast-properties">
+      <data key="d1">DEPENDS</data>
+    </edge>
+    <edge source="once" target="wrappy">
+      <data key="d1">DEPENDS</data>
+    </edge>
+  </graph>
+</graphml>

@@ -3,6 +3,7 @@ from graphcommons import GraphCommons, Signal
 from lxml.html import fromstring
 from networkx import DiGraph
 import networkx as nx
+import matplotlib.pyplot as plt
 
 from requests.packages import urllib3
 
@@ -65,29 +66,76 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
                 )
 
 
-def analyze_graph(graph):
-    print 'analyze'
-    print('BETWEENNESS')
-    print(nx.betweenness_centrality(graph))
+def save_as_csv(name, data, header):
+    with open(name + ".csv", 'wb') as csvfile:
+        file_str = header[0] + ' ' + header[1] + '\n'
+        for tuple in data:
+            file_str += tuple[0] + " " + tuple[1] + "\n"
+        csvfile.write(file_str)
 
-    print('CLUSTERING')
-    print(nx.clustering(graph))
+
+def analyze_graph(graph):
+    print 'Graph analyze:'
+
+    print('DEGREE')
+    degree = nx.degree_centrality(graph)
+    degree = map(lambda t: (t[0], t[1] * 100), sorted(degree.items(), key=lambda t: t[1], reverse=True)[:10])
+    save_as_csv("DEGREE", degree, ("package", "DEGREE"))
+    print(degree)
+
+    print('IN_DEGREE')
+    in_degree = nx.in_degree_centrality(graph)
+    in_degree = map(lambda t: (t[0], t[1] * 100), sorted(in_degree.items(), key=lambda t: t[1], reverse=True)[:10])
+    save_as_csv("IN_DEGREE", degree, ("package", "IN_DEGREE"))
+    print(in_degree)
+
+    print('OUT_DEGREE')
+    out_degree = nx.out_degree_centrality(graph)
+    out_degree = map(lambda t: (t[0], t[1] * 100), sorted(out_degree.items(), key=lambda t: t[1], reverse=True)[:10])
+    save_as_csv("OUT_DEGREE", degree, ("package", "OUT_DEGREE"))
+    print(out_degree)
+
+    print('BETWEENNESS')
+    betweenness = nx.betweenness_centrality(graph)
+    betweenness = map(lambda t: (t[0], t[1] * 100), sorted(betweenness.items(), key=lambda t: t[1], reverse=True)[:10])
+    save_as_csv("BETWEENNESS", degree, ("package", "BETWEENNESS"))
+    print(betweenness)
 
     print('CLOSENESS')
-    print(nx.closeness_centrality(graph))
+    closeness = nx.closeness_centrality(graph)
+    closeness = map(lambda t: (t[0], t[1] * 100), sorted(closeness.items(), key=lambda t: t[1], reverse=True)[:10])
+    save_as_csv("CLOSENESS", degree, ("package", "CLOSENESS"))
+    print(closeness)
 
     print('PAGE RANK')
-    print(nx.pagerank(graph))
+    pagerank = nx.pagerank(graph)
+    pagerank = map(lambda t: (t[0], t[1] * 100), sorted(pagerank.items(), key=lambda t: t[1], reverse=True)[:10])
+    save_as_csv("PAGE RANK", degree, ("package", "PAGE RANK"))
+    print(pagerank)
 
-    print(nx.shortest_path(0, 100))
+
+def load_graph(name):
+    return nx.read_graphml(name)
 
 
-def main(access_token, package_names, max_depth):
-    graph = DiGraph()
+def save_graph(graph, name):
+    nx.write_pajek(graph, name + ".net")
+    nx.write_graphml(graph, name + ".graphml")
+    nx.write_edgelist(graph, name + ".edgelist.txt")
+
+
+def main(access_token, package_names, max_depth, load_from_file):
+    if load_from_file:
+        graph = load_graph("npm_dependencies_4_packages_50.graphml")
+    else:
+        graph = DiGraph()
+
+        for package_name in package_names:
+            import_package_dependencies(graph, package_name, max_depth=max_depth)
+
+        save_graph(graph, "npm_dependencies_" + str(max_depth) + "_packages_" + str(len(package_names)))
+
     graphcommons = GraphCommons(access_token)
-
-    for package_name in package_names:
-        import_package_dependencies(graph, package_name, max_depth=max_depth)
 
     analyze_graph(graph)
 
@@ -140,4 +188,4 @@ if __name__ == "__main__":
     parser.add_option("--depth", dest="depth", type=int,
                       help="Max depth of dependencies")
     options, args = parser.parse_args()
-    main(options.access_token, str.split(options.package_names, ','), options.depth)
+    main(options.access_token, str.split(options.package_names, ','), options.depth, True)
