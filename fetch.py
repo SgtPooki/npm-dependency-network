@@ -2,10 +2,11 @@ import requests
 from graphcommons import GraphCommons, Signal
 from lxml.html import fromstring
 from networkx import DiGraph
+import networkx as nx
 
 from requests.packages import urllib3
-urllib3.disable_warnings()
 
+urllib3.disable_warnings()
 
 fetched_packages = set()
 
@@ -30,10 +31,9 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
     for h3 in doc.cssselect('h3'):
         content = h3.text_content()
 
-        if content.strip().startswith('Collaborators'):
+        if content.strip().startswith('Collaborators') and False:
 
             for collaborator in h3.getnext().cssselect('a'):
-
                 collaborator_name = collaborator.attrib['title']
 
                 graph.add_node(collaborator_name, {
@@ -48,7 +48,7 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
             for dependency in h3.getnext().cssselect('a'):
                 dependency_name = dependency.text_content()
 
-                print '-' * depth * 2, dependency_name
+                print('-' * depth * 2, dependency_name)
 
                 graph.add_node(dependency_name, {
                     'type': 'PACKAGE'
@@ -65,10 +65,31 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
                 )
 
 
-def main(access_token, package_name, max_depth):
+def analyze_graph(graph):
+    print 'analyze'
+    print('BETWEENNESS')
+    print(nx.betweenness_centrality(graph))
+
+    print('CLUSTERING')
+    print(nx.clustering(graph))
+
+    print('CLOSENESS')
+    print(nx.closeness_centrality(graph))
+
+    print('PAGE RANK')
+    print(nx.pagerank(graph))
+
+    print(nx.shortest_path(0, 100))
+
+
+def main(access_token, package_names, max_depth):
     graph = DiGraph()
     graphcommons = GraphCommons(access_token)
-    import_package_dependencies(graph, package_name, max_depth=max_depth)
+
+    for package_name in package_names:
+        import_package_dependencies(graph, package_name, max_depth=max_depth)
+
+    analyze_graph(graph)
 
     signals = []
 
@@ -87,7 +108,6 @@ def main(access_token, package_name, max_depth):
         ))
 
     for source, target, data in graph.edges(data=True):
-
         signals.append(Signal(
             action="edge_create",
             from_name=source,
@@ -104,18 +124,20 @@ def main(access_token, package_name, max_depth):
         signals=signals
     )
 
-    print 'Created Graph URL:'
-    print 'https://graphcommons.com/graphs/%s' % created_graph.id
+    print('Created Graph URL:')
+    print('https://graphcommons.com/graphs/%s' % created_graph.id)
+
 
 if __name__ == "__main__":
     from optparse import OptionParser
+
     parser = OptionParser()
     parser.add_option("--access_token", dest="access_token",
                       help="API Access to use Graph Commons API. You can get "
                            "this token from your profile page on graphcommons.com")
-    parser.add_option("--package_name", dest="package_name",
+    parser.add_option("--package_names", dest="package_names",
                       help="NPM package that will be fetched")
     parser.add_option("--depth", dest="depth", type=int,
                       help="Max depth of dependencies")
     options, args = parser.parse_args()
-    main(options.access_token, options.package_name, options.depth)
+    main(options.access_token, str.split(options.package_names, ','), options.depth)
