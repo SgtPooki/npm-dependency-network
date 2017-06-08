@@ -1,0 +1,11 @@
+package PAGE RANK
+babel-runtime 2.43169975276
+core-js 1.19827729931
+regenerator-runtime 1.16161509915
+readable-stream 0.952031348102
+babel-types 0.927652459272
+lodash 0.774416354716
+inherits 0.735102511685
+safe-buffer 0.718975067366
+ms 0.547807856912
+ansi-regex 0.524274791038

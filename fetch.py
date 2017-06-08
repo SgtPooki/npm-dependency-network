@@ -70,7 +70,7 @@ def save_as_csv(name, data, header):
     with open(name + ".csv", 'wb') as csvfile:
         file_str = header[0] + ' ' + header[1] + '\n'
         for tuple in data:
-            file_str += tuple[0] + " " + tuple[1] + "\n"
+            file_str += str(tuple[0]) + " " + str(tuple[1]) + "\n"
         csvfile.write(file_str)
 
 
@@ -86,31 +86,31 @@ def analyze_graph(graph):
     print('IN_DEGREE')
     in_degree = nx.in_degree_centrality(graph)
     in_degree = map(lambda t: (t[0], t[1] * 100), sorted(in_degree.items(), key=lambda t: t[1], reverse=True)[:10])
-    save_as_csv("IN_DEGREE", degree, ("package", "IN_DEGREE"))
+    save_as_csv("IN_DEGREE", in_degree, ("package", "IN_DEGREE"))
     print(in_degree)
 
     print('OUT_DEGREE')
     out_degree = nx.out_degree_centrality(graph)
     out_degree = map(lambda t: (t[0], t[1] * 100), sorted(out_degree.items(), key=lambda t: t[1], reverse=True)[:10])
-    save_as_csv("OUT_DEGREE", degree, ("package", "OUT_DEGREE"))
+    save_as_csv("OUT_DEGREE", out_degree, ("package", "OUT_DEGREE"))
     print(out_degree)
 
     print('BETWEENNESS')
     betweenness = nx.betweenness_centrality(graph)
     betweenness = map(lambda t: (t[0], t[1] * 100), sorted(betweenness.items(), key=lambda t: t[1], reverse=True)[:10])
-    save_as_csv("BETWEENNESS", degree, ("package", "BETWEENNESS"))
+    save_as_csv("BETWEENNESS", betweenness, ("package", "BETWEENNESS"))
     print(betweenness)
 
     print('CLOSENESS')
     closeness = nx.closeness_centrality(graph)
     closeness = map(lambda t: (t[0], t[1] * 100), sorted(closeness.items(), key=lambda t: t[1], reverse=True)[:10])
-    save_as_csv("CLOSENESS", degree, ("package", "CLOSENESS"))
+    save_as_csv("CLOSENESS", closeness, ("package", "CLOSENESS"))
     print(closeness)
 
     print('PAGE RANK')
     pagerank = nx.pagerank(graph)
     pagerank = map(lambda t: (t[0], t[1] * 100), sorted(pagerank.items(), key=lambda t: t[1], reverse=True)[:10])
-    save_as_csv("PAGE RANK", degree, ("package", "PAGE RANK"))
+    save_as_csv("PAGE RANK", pagerank, ("package", "PAGE RANK"))
     print(pagerank)
 
 
