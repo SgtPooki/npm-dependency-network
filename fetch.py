@@ -1,6 +1,5 @@
 import requests
 from graphcommons import GraphCommons, Signal
-from lxml.html import fromstring
 from networkx import DiGraph
 import networkx as nx
 # import matplotlib.pyplot as plt
@@ -11,7 +10,6 @@ urllib3.disable_warnings()
 
 fetched_packages = set()
 
-
 def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
     if package_name in fetched_packages:
         return
@@ -20,50 +18,72 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
         return
 
     fetched_packages.add(package_name)
-
-    url = 'https://www.npmjs.com/package/%s' % package_name
+# https://registry.npmjs.org/
+    url = 'https://registry.npmjs.org/%s' % package_name
+    # url = 'https://www.npmjs.com/package/%s' % package_name
     response = requests.get(url, verify=False)
-    doc = fromstring(response.content)
+    # doc = fromstring(response.content)
+    pkg_registry_info = response.json()
 
-    graph.add_node(package_name, {
-        'type': 'PACKAGE'
-    })
+    # Now get the JSON for that version
+    url = 'https://registry.npmjs.org/%s/%s' % (package_name, pkg_registry_info['dist-tags']['latest'])
+    response = requests.get(url, verify=False)
+    pkg_version_info = response.json()
 
-    for h3 in doc.cssselect('h3'):
-        content = h3.text_content()
+    package_identifier = package_name + '@' + pkg_version_info['version']
 
-        if content.strip().startswith('Collaborators') and False:
+    # Convert pkg_version_info to a node in the graph
+    graph.add_node(package_identifier, type='PACKAGE', version=pkg_version_info['version'], description=pkg_version_info['description'])
 
-            for collaborator in h3.getnext().cssselect('a'):
-                collaborator_name = collaborator.attrib['title']
+    # Parse contributors
+    if 'contributors' in pkg_version_info:
+        for contributors in pkg_version_info['contributors']:
+            graph.add_node(contributors['name'], type='CONTRIBUTOR')
+            graph.add_edge(package_name, contributors['name'], type='CONTRIBUTED_BY')
 
-                graph.add_node(collaborator_name, {
-                    'type': 'CONTRIBUTOR'
-                })
+    # Walk the dependencies and add them to the graph
+    if 'dependencies' in pkg_version_info:
+        for dependency_name in pkg_version_info['dependencies']:
+            dependency_identifier = dependency_name + '@' + pkg_version_info['dependencies'][dependency_name]
+            graph.add_node(dependency_identifier, type='PACKAGE')
+            graph.add_edge(package_name, dependency_identifier, type='DEPENDS_ON')
+            import_package_dependencies(graph, dependency_name, max_depth, depth + 1)
 
-                graph.add_edge(collaborator_name, package_name, {
-                    'type': 'CONTRIBUTED'
-                })
+    # for h3 in doc.cssselect('h3'):
+    #     content = h3.text_content()
 
-        if content.startswith('Dependencies'):
-            for dependency in h3.getnext().cssselect('a'):
-                dependency_name = dependency.text_content()
+    #     if content.strip().startswith('Collaborators') and False:
 
-                print('-' * depth * 2, dependency_name)
+    #         for collaborator in h3.getnext().cssselect('a'):
+    #             collaborator_name = collaborator.attrib['title']
 
-                graph.add_node(dependency_name, {
-                    'type': 'PACKAGE'
-                })
+    #             graph.add_node(collaborator_name, {
+    #                 'type': 'CONTRIBUTOR'
+    #             })
 
-                graph.add_edge(package_name, dependency_name, {
-                    'type': 'DEPENDS'
-                })
+    #             graph.add_edge(collaborator_name, package_name, {
+    #                 'type': 'CONTRIBUTED'
+    #             })
 
-                import_package_dependencies(
-                    graph,
-                    dependency_name,
-                    depth=depth + 1
-                )
+    #     if content.startswith('Dependencies'):
+    #         for dependency in h3.getnext().cssselect('a'):
+    #             dependency_name = dependency.text_content()
+
+    #             print('-' * depth * 2, dependency_name)
+
+    #             graph.add_node(dependency_name, {
+    #                 'type': 'PACKAGE'
+    #             })
+
+    #             graph.add_edge(package_name, dependency_name, {
+    #                 'type': 'DEPENDS'
+    #             })
+
+    #             import_package_dependencies(
+    #                 graph,
+    #                 dependency_name,
+    #                 depth=depth + 1
+    #             )
 
 
 def save_as_csv(name, data, header):
@@ -134,6 +154,7 @@ def main(access_token, package_names, max_depth, load_from_file):
             import_package_dependencies(graph, package_name, max_depth=max_depth)
 
         save_graph(graph, "npm_dependencies_" + str(max_depth) + "_packages_" + str(len(package_names)))
+    # return
 
     graphcommons = GraphCommons(access_token)
 
@@ -166,14 +187,14 @@ def main(access_token, package_names, max_depth, load_from_file):
             weight=1
         ))
 
-    created_graph = graphcommons.new_graph(
-        name="Dependency Network of %s" % package_names,
-        description="Dependency Network of %s Package" % package_names,
-        signals=signals
-    )
+    # created_graph = graphcommons.new_graph(
+    #     name="Dependency Network of %s" % package_names,
+    #     description="Dependency Network of %s Package" % package_names,
+    #     signals=signals
+    # )
 
-    print('Created Graph URL:')
-    print('https://graphcommons.com/graphs/%s' % created_graph.id)
+    # print('Created Graph URL:')
+    # print('https://graphcommons.com/graphs/%s' % created_graph.id)
 
 
 if __name__ == "__main__":
