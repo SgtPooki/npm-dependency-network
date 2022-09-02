@@ -17,21 +17,36 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
     if depth > max_depth:
         return
 
-    fetched_packages.add(package_name)
-    url = 'https://registry.npmjs.org/%s' % package_name
-    response = requests.get(url, verify=False)
-    pkg_registry_info = response.json()
 
-    # Now get the JSON for that version
-    url = 'https://registry.npmjs.org/%s/%s' % (package_name, pkg_registry_info['dist-tags']['latest'])
-    response = requests.get(url, verify=False)
-    response.content.decode('utf-8')
-    pkg_version_info = json.loads(response.text)
+    # test if package_name is a github url
+    # Note: Only urls to raw package.json content are currently supported.
+    # e.g. https://raw.githubusercontent.com/ipfs/ipfs-webui/main/package.json
+    if 'https://raw.githubusercontent.com' in package_name:
+      # download the package.json from the github url
+      url = package_name
+      response = requests.get(url, verify=False)
+      pkg_version_info = json.loads(response.text)
+      package_name = pkg_version_info['name']
+    else:
+        url = 'https://registry.npmjs.org/%s' % package_name
+        response = requests.get(url, verify=False)
+        pkg_registry_info = response.json()
 
+        # Now get the JSON for that version
+        url = 'https://registry.npmjs.org/%s/%s' % (package_name, pkg_registry_info['dist-tags']['latest'])
+        response = requests.get(url, verify=False)
+        # response.content.decode('utf-8')
+        pkg_version_info = json.loads(response.text)
+
+    # fetched_packages.add(packag)
     package_identifier = package_name + '@' + pkg_version_info['version']
+    if package_identifier in fetched_packages:
+      return
+    else:
+      fetched_packages.add(package_identifier)
 
     # Convert pkg_version_info to a node in the graph
-    graph.add_node(package_identifier.encode('ascii', 'replace'), type='PACKAGE', version=pkg_version_info['version'].encode('ascii', 'replace'), description=pkg_version_info['description'].encode('ascii', 'replace'))
+    graph.add_node(package_identifier.encode('ascii', 'replace'), type='PACKAGE', version=pkg_version_info['version'].encode('ascii', 'replace'))
 
     # Parse contributors
     if options.add_contributors and 'contributors' in pkg_version_info:
@@ -165,15 +180,24 @@ def main(access_token, package_names, max_depth, load_from_file):
             weight=1
         ))
 
+    print('options.graph_id', options.graph_id)
     if options.publish:
-      created_graph = graphcommons.new_graph(
-          name="Dependency Network of %s" % package_names,
-          description="Dependency Network of %s Package" % package_names,
-          signals=signals
-      )
+      if options.graph_id:
+        print('Updating graph', options.graph_id)
+        graphcommons_result = graphcommons.update_graph(options.graph_id,
+            name="Dependency Network of %s" % package_names,
+            description="Dependency Network of %s Package" % package_names,
+            signals=signals
+        )
+      else:
+        graphcommons_result = graphcommons.new_graph(
+            name="Dependency Network of %s" % package_names,
+            description="Dependency Network of %s Package" % package_names,
+            signals=signals
+        )
+        print('Created Graph URL:')
 
-      print('Created Graph URL:')
-      print('https://graphcommons.com/graphs/%s' % created_graph.id)
+      print('https://graphcommons.com/graphs/%s' % graphcommons_result.id)
 
 
 if __name__ == "__main__":
@@ -193,5 +217,6 @@ if __name__ == "__main__":
                       help="Whether to publish a graph on graphcommons", default=False)
     parser.add_option("--add_contributors", dest="add_contributors",
                       help="Whether to add contributors to the graph", default=False)
+    parser.add_option("--graph_id", dest="graph_id", help="Graph ID to update")
     options, args = parser.parse_args()
     main(options.access_token, str.split(options.package_names, ','), options.depth, options.use_cache)
