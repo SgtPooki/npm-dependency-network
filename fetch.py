@@ -2,7 +2,7 @@ import requests
 from graphcommons import GraphCommons, Signal
 from networkx import DiGraph
 import networkx as nx
-# import matplotlib.pyplot as plt
+import json
 
 from requests.packages import urllib3
 
@@ -18,73 +18,43 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
         return
 
     fetched_packages.add(package_name)
-# https://registry.npmjs.org/
     url = 'https://registry.npmjs.org/%s' % package_name
-    # url = 'https://www.npmjs.com/package/%s' % package_name
     response = requests.get(url, verify=False)
-    # doc = fromstring(response.content)
     pkg_registry_info = response.json()
 
     # Now get the JSON for that version
     url = 'https://registry.npmjs.org/%s/%s' % (package_name, pkg_registry_info['dist-tags']['latest'])
     response = requests.get(url, verify=False)
-    pkg_version_info = response.json()
+    response.content.decode('utf-8')
+    pkg_version_info = json.loads(response.text)
 
     package_identifier = package_name + '@' + pkg_version_info['version']
 
     # Convert pkg_version_info to a node in the graph
-    graph.add_node(package_identifier, type='PACKAGE', version=pkg_version_info['version'], description=pkg_version_info['description'])
+    graph.add_node(package_identifier.encode('ascii', 'replace'), type='PACKAGE', version=pkg_version_info['version'].encode('ascii', 'replace'), description=pkg_version_info['description'].encode('ascii', 'replace'))
 
     # Parse contributors
-    if 'contributors' in pkg_version_info:
-        for contributors in pkg_version_info['contributors']:
-            graph.add_node(contributors['name'], type='CONTRIBUTOR')
-            graph.add_edge(package_name, contributors['name'], type='CONTRIBUTED_BY')
+    if options.add_contributors and 'contributors' in pkg_version_info:
+        for contributor in pkg_version_info['contributors']:
+            if 'url' in contributor:
+              graph.add_node(contributor['url'].encode('ascii', 'replace'), type='CONTRIBUTOR')
+              graph.add_edge(package_identifier.encode('ascii', 'replace'), contributor['url'].encode('ascii', 'replace'), type='CONTRIBUTES_TO')
+            elif 'email' in contributor:
+              graph.add_node(contributor['email'].encode('ascii', 'replace'), type='CONTRIBUTOR')
+              graph.add_edge(package_identifier.encode('ascii', 'replace'), contributor['email'].encode('ascii', 'replace'), type='CONTRIBUTES_TO')
+            elif 'name' in contributor:
+              graph.add_node(contributor['name'].encode('ascii', 'replace'), type='CONTRIBUTOR')
+              graph.add_edge(package_identifier.encode('ascii', 'replace'), contributor['name'].encode('ascii', 'replace'), type='CONTRIBUTES_TO')
+            else:
+              print('Contributor url, email, and name are missing', contributor)
 
     # Walk the dependencies and add them to the graph
     if 'dependencies' in pkg_version_info:
         for dependency_name in pkg_version_info['dependencies']:
             dependency_identifier = dependency_name + '@' + pkg_version_info['dependencies'][dependency_name]
-            graph.add_node(dependency_identifier, type='PACKAGE')
-            graph.add_edge(package_name, dependency_identifier, type='DEPENDS_ON')
-            import_package_dependencies(graph, dependency_name, max_depth, depth + 1)
-
-    # for h3 in doc.cssselect('h3'):
-    #     content = h3.text_content()
-
-    #     if content.strip().startswith('Collaborators') and False:
-
-    #         for collaborator in h3.getnext().cssselect('a'):
-    #             collaborator_name = collaborator.attrib['title']
-
-    #             graph.add_node(collaborator_name, {
-    #                 'type': 'CONTRIBUTOR'
-    #             })
-
-    #             graph.add_edge(collaborator_name, package_name, {
-    #                 'type': 'CONTRIBUTED'
-    #             })
-
-    #     if content.startswith('Dependencies'):
-    #         for dependency in h3.getnext().cssselect('a'):
-    #             dependency_name = dependency.text_content()
-
-    #             print('-' * depth * 2, dependency_name)
-
-    #             graph.add_node(dependency_name, {
-    #                 'type': 'PACKAGE'
-    #             })
-
-    #             graph.add_edge(package_name, dependency_name, {
-    #                 'type': 'DEPENDS'
-    #             })
-
-    #             import_package_dependencies(
-    #                 graph,
-    #                 dependency_name,
-    #                 depth=depth + 1
-    #             )
-
+            graph.add_node(dependency_identifier.encode('ascii', 'replace'), type='PACKAGE')
+            graph.add_edge(package_identifier.encode('ascii', 'replace'), dependency_identifier.encode('ascii', 'replace'), type='DEPENDS_ON')
+            import_package_dependencies(graph, dependency_name.encode('ascii', 'replace'), max_depth, depth + 1)
 
 def save_as_csv(name, data, header):
     with open(name + ".csv", 'wb') as csvfile:
@@ -100,38 +70,38 @@ def analyze_graph(graph):
     print('DEGREE')
     degree = nx.degree_centrality(graph)
     degree = [(t[0], t[1] * 100) for t in sorted(list(degree.items()), key=lambda t: t[1], reverse=True)[:10]]
-    save_as_csv("DEGREE", degree, ("package", "DEGREE"))
     print(degree)
+    save_as_csv("DEGREE", degree, ("package", "DEGREE"))
 
     print('IN_DEGREE')
     in_degree = nx.in_degree_centrality(graph)
     in_degree = [(t[0], t[1] * 100) for t in sorted(list(in_degree.items()), key=lambda t: t[1], reverse=True)[:10]]
-    save_as_csv("IN_DEGREE", in_degree, ("package", "IN_DEGREE"))
     print(in_degree)
+    save_as_csv("IN_DEGREE", in_degree, ("package", "IN_DEGREE"))
 
     print('OUT_DEGREE')
     out_degree = nx.out_degree_centrality(graph)
     out_degree = [(t[0], t[1] * 100) for t in sorted(list(out_degree.items()), key=lambda t: t[1], reverse=True)[:10]]
-    save_as_csv("OUT_DEGREE", out_degree, ("package", "OUT_DEGREE"))
     print(out_degree)
+    save_as_csv("OUT_DEGREE", out_degree, ("package", "OUT_DEGREE"))
 
     print('BETWEENNESS')
     betweenness = nx.betweenness_centrality(graph)
     betweenness = [(t[0], t[1] * 100) for t in sorted(list(betweenness.items()), key=lambda t: t[1], reverse=True)[:10]]
-    save_as_csv("BETWEENNESS", betweenness, ("package", "BETWEENNESS"))
     print(betweenness)
+    save_as_csv("BETWEENNESS", betweenness, ("package", "BETWEENNESS"))
 
     print('CLOSENESS')
     closeness = nx.closeness_centrality(graph)
     closeness = [(t[0], t[1] * 100) for t in sorted(list(closeness.items()), key=lambda t: t[1], reverse=True)[:10]]
-    save_as_csv("CLOSENESS", closeness, ("package", "CLOSENESS"))
     print(closeness)
+    save_as_csv("CLOSENESS", closeness, ("package", "CLOSENESS"))
 
     print('PAGE RANK')
     pagerank = nx.pagerank(graph)
     pagerank = [(t[0], t[1] * 100) for t in sorted(list(pagerank.items()), key=lambda t: t[1], reverse=True)[:10]]
-    save_as_csv("PAGE RANK", pagerank, ("package", "PAGE RANK"))
     print(pagerank)
+    save_as_csv("PAGE RANK", pagerank, ("package", "PAGE RANK"))
 
 
 def load_graph(name):
@@ -143,6 +113,14 @@ def save_graph(graph, name):
     nx.write_graphml(graph, name + ".graphml")
     nx.write_edgelist(graph, name + ".edgelist.txt")
 
+def get_type_from_data(data):
+  if 'type' in data:
+    data_type = data['type']
+  elif data.get:
+    data_type = data.get('type')
+  else:
+    data_type = 'UNKNOWN'
+  return data_type
 
 def main(access_token, package_names, max_depth, load_from_file):
     if load_from_file:
@@ -154,7 +132,6 @@ def main(access_token, package_names, max_depth, load_from_file):
             import_package_dependencies(graph, package_name, max_depth=max_depth)
 
         save_graph(graph, "npm_dependencies_" + str(max_depth) + "_packages_" + str(len(package_names)))
-    # return
 
     graphcommons = GraphCommons(access_token)
 
@@ -163,8 +140,9 @@ def main(access_token, package_names, max_depth, load_from_file):
     signals = []
 
     for (node, data) in graph.nodes(data=True):
+        data_type = get_type_from_data(data)
 
-        if data['type'] == 'PACKAGE':
+        if data_type == 'PACKAGE':
             reference = "https://www.npmjs.com/package/%s" % node
         else:
             reference = 'https://www.npmjs.com/~%s' % node
@@ -172,8 +150,8 @@ def main(access_token, package_names, max_depth, load_from_file):
         signals.append(Signal(
             action="node_create",
             name=node,
-            type=data['type'],
-            reference=reference
+            type=data_type,
+            reference=reference,
         ))
 
     for source, target, data in graph.edges(data=True):
@@ -183,18 +161,19 @@ def main(access_token, package_names, max_depth, load_from_file):
             from_type=graph.node[source]['type'],
             to_name=target,
             to_type=graph.node[target]['type'],
-            name=data['type'],
+            name=get_type_from_data(data),
             weight=1
         ))
 
-    # created_graph = graphcommons.new_graph(
-    #     name="Dependency Network of %s" % package_names,
-    #     description="Dependency Network of %s Package" % package_names,
-    #     signals=signals
-    # )
+    if options.publish:
+      created_graph = graphcommons.new_graph(
+          name="Dependency Network of %s" % package_names,
+          description="Dependency Network of %s Package" % package_names,
+          signals=signals
+      )
 
-    # print('Created Graph URL:')
-    # print('https://graphcommons.com/graphs/%s' % created_graph.id)
+      print('Created Graph URL:')
+      print('https://graphcommons.com/graphs/%s' % created_graph.id)
 
 
 if __name__ == "__main__":
@@ -210,5 +189,9 @@ if __name__ == "__main__":
                       help="Max depth of dependencies")
     parser.add_option("--use_cache", dest="use_cache",
                       help="Whether to use cache or not", default=False)
+    parser.add_option("--publish", dest="publish",
+                      help="Whether to publish a graph on graphcommons", default=False)
+    parser.add_option("--add_contributors", dest="add_contributors",
+                      help="Whether to add contributors to the graph", default=False)
     options, args = parser.parse_args()
     main(options.access_token, str.split(options.package_names, ','), options.depth, options.use_cache)
