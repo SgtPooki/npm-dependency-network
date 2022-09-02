@@ -187,5 +187,7 @@ if __name__ == "__main__":
                       help="NPM package that will be fetched")
     parser.add_option("--depth", dest="depth", type=int,
                       help="Max depth of dependencies")
+    parser.add_option("--use_cache", dest="use_cache",
+                      help="Whether to use cache or not", default=False)
     options, args = parser.parse_args()
-    main(options.access_token, str.split(options.package_names, ','), options.depth, True)
+    main(options.access_token, str.split(options.package_names, ','), options.depth, options.use_cache)
