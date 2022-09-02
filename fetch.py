@@ -38,8 +38,11 @@ def import_package_dependencies(graph, package_name, max_depth=3, depth=0):
         # response.content.decode('utf-8')
         pkg_version_info = json.loads(response.text)
 
-    # fetched_packages.add(packag)
-    package_identifier = package_name + '@' + pkg_version_info['version']
+    if (options.name_only_id):
+      package_identifier = package_name
+    else:
+      package_identifier = package_name + '@' + pkg_version_info['version']
+
     if package_identifier in fetched_packages:
       return
     else:
@@ -218,5 +221,6 @@ if __name__ == "__main__":
     parser.add_option("--add_contributors", dest="add_contributors",
                       help="Whether to add contributors to the graph", default=False)
     parser.add_option("--graph_id", dest="graph_id", help="Graph ID to update")
+    parser.add_option("--name_only_id", dest="name_only_id", help="Set the package_identifier to be package_name instead of package_name@version", default=False)
     options, args = parser.parse_args()
     main(options.access_token, str.split(options.package_names, ','), options.depth, options.use_cache)
