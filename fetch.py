@@ -3,7 +3,7 @@ from graphcommons import GraphCommons, Signal
 from lxml.html import fromstring
 from networkx import DiGraph
 import networkx as nx
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 from requests.packages import urllib3
 
@@ -167,8 +167,8 @@ def main(access_token, package_names, max_depth, load_from_file):
         ))
 
     created_graph = graphcommons.new_graph(
-        name="Dependency Network of %s" % package_name,
-        description="Dependency Network of %s Package" % package_name,
+        name="Dependency Network of %s" % package_names,
+        description="Dependency Network of %s Package" % package_names,
         signals=signals
     )
 

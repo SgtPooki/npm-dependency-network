@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "/Users/sgtpooki/.asdf/installs/python/2.7.15/bin/python",
+  "python.linting.cwd": "",
+  "python.linting.pylintPath": "/Users/sgtpooki/.asdf/installs/python/2.7.15/bin/pylint",
+  "python.linting.enabled": true,
+  "cSpell.words": [
+    "cssselect",
+    "getnext",
+    "graphcommons",
+    "lxml",
+    "networkx"
+  ]
+}
